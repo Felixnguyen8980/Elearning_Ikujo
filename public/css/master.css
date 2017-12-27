@@ -1,0 +1,144 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}
+ul{
+	list-style-type: none;
+}
+a{	
+	display: block;
+	color: black;
+	text-decoration: none;
+}
+.row{
+	display: flex;
+}
+.col1{
+	display: inline-block;
+	min-width: 10%;
+	max-width: 10%;
+}
+.col2{
+	display: inline-block;
+	min-width: 20%;
+	max-width: 20%;
+}
+.col3{
+	display: inline-block;
+	min-width: 30%;
+	max-width: 30%;
+
+}
+.col4{
+	display: inline-block;
+	min-width: 40%;
+	max-width: 40%;
+
+}
+.col5{
+	display: inline-block;
+	min-width: 50%;
+	max-width: 50%;
+
+}
+.col6{
+	display: inline-block;
+	min-width: 60%;
+	max-width: 60%;
+
+}
+.col7{
+	display: inline-block;
+	min-width: 70%;
+	max-width: 70%;
+
+}
+.col8{
+	display: inline-block;
+	min-width: 80%;
+	max-width: 80%;
+
+}
+.col9{
+	display: inline-block;
+	min-width: 90%;
+	max-width: 90%;
+}
+.col10{
+	display: inline-block;
+	min-width: 100%;
+	max-width: 100%;
+
+}
+.col05{
+	display: inline-block;
+	min-width: 5%;
+	max-width: 5%;
+
+}
+.btn-tiny{
+	padding: 0;
+	border: none;
+	outline: none;
+}
+.btn{
+	padding: 5px 10px 5px 10px;
+	border: none;
+	outline: none;
+	background-color: rgba(0,0,0,0.2);
+}
+.btn:hover{
+	background-color: rgba(0,0,0,0.3);
+}
+.btn:active{
+	background-color: rgba(0,0,0,0.6);
+	color: white;
+}
+.btn.active{
+	background-color: rgba(0,0,0,0.6);
+	color: white;
+}
+.alert{
+	color: red;
+	text-align: left;
+	max-width: 100%;
+	overflow: hidden;
+}
+.alert i{
+	display: block;
+	max-width: 100%;
+}
+.menu_down{
+	display: none;
+}
+.menu_down.active{
+	display: block;
+}
+
+.btn_circle{
+	padding: 2px;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	border: none;
+	outline: none;
+	background-color: rgba(0,0,0,0.2);
+}
+.btn_circle:hover{
+	background-color: rgba(0,0,0,0.3);
+}
+.btn_circle:active{
+	background-color: rgba(0,0,0,0.6);
+	color: white;
+}
+.btn_circle.active{
+	background-color: rgba(0,0,0,0.6);
+	color: white;
+}

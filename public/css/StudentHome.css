@@ -1,0 +1,117 @@
+#container{
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding-top:52px;
+	position: relative;
+	background-color: #d1b49926;
+}
+#header{
+	height: 50px;
+	position: fixed;
+	z-index: 10;
+	top:0;
+	left: 0;
+	width: 100%;
+	align-items: center;
+	padding: 0 10px 0 15px;
+	background-color: #F28C8C;
+	font-size: 20px;
+	color: white;
+}
+#MenuBar{
+	height: 100%;
+}
+#MenuBar ul.menu{
+	list-style-type: none;
+	height: 100%;
+}
+#header ul.menu a{
+	display: block;
+	padding: 0;
+	height: 100%;
+	line-height: 50px;
+}
+#MenuCenters{
+	display: block;
+	position: relative;
+}
+#listCenter{
+	display: block;
+	position: absolute;
+	z-index: 4;
+	padding: 5px;
+	background-color: #F2D1B3;
+	color:white;
+	top:100%;
+	width: 100%;
+	left: 0;
+}
+#listCenter li{
+	border-bottom: 1px solid rgba(255,255,255,0.6);
+}
+#Slider{
+	border-bottom: 2px solid #538EA6;
+	box-shadow: 1px 2px 3px #538EA6;
+}
+#Free_Course h3{
+	text-align: center;
+}
+#Free_Course{
+	border-bottom: 2px solid #538EA6;
+	box-shadow: 1px 2px 3px #538EA6;
+}
+
+.title{
+	padding: 5px;
+	background-color: #F2B8A2;
+	color: #2D5F73;
+}
+#Free_Course .element{
+	padding: 5px;
+}
+#Free_Course .element p{
+	text-align: center;
+	font-size: 19px;
+}
+#Jobs h3{
+	text-align: center;
+}
+#Jobs{
+	border-bottom: 2px solid #538EA6;
+	box-shadow: 1px 2px 3px #538EA6;
+}
+#Jobs .content{
+	padding:10px;
+}
+#Partner{
+	height: 150px;
+}
+#Partner .row{
+	height: 100%;
+	align-items: center;
+	padding: 5px;
+}
+#Partner .row img{
+	max-height: 90px;
+}
+#footer{
+	background-color: #5e3c3c;
+	color: white;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-bottom: 2px;
+}
+#copyrigh_policy{
+	text-align: center;
+	border-top: 1px solid rgba(255,255,255,0.6);
+}
+#container{
+	min-height: 750px;
+	height: 100%;
+}
+#contentContainer{
+	min-height: 500px;
+	height: 100%;
+}
